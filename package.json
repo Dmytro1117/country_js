@@ -1,0 +1,23 @@
+{
+  "name": "efdsfdsf",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://dmytro1117.github.io/efdsfdsf/",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/*.html --public-url /efdsfdsf/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vimeo/player": "^2.18.0",
+    "lodash.throttle": "^4.1.1",
+    "parcel": "^2.9.3",
+    "simplelightbox": "^2.10.4"
+  },
+  "devDependencies": {
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-transformer-hbs": "^1.0.4"
+  }
+}
