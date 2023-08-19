@@ -1,11 +1,11 @@
 {
-  "name": "efdsfdsf",
+  "name": "task-3",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://dmytro1117.github.io/efdsfdsf/",
+  "homepage": "https://dmytro1117.github.io/task-3/",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "parcel build src/*.html --public-url /efdsfdsf/"
+    "build": "parcel build src/*.html --public-url /task-3/"
   },
   "keywords": [],
   "author": "",
