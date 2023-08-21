@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.timer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.field {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+text-align: center;
+  font-family:Cambria,
+    Cochin,
+    Georgia,
+    Times,
+    'Times New Roman',
+    serif;
+ font-size: 60px;
+ font-weight: 700;
+ color: dimgray;
+}
+
+.label {
+  font-family: Cambria,
+    Cochin,
+    Georgia,
+    Times,
+    'Times New Roman',
+    serif;
+  text-align: center;
+}
+
+input,
+button {
+  margin-top: 40px;
+  display: flex;
+  margin-left: auto;
+    margin-right: auto;
+   text-align: center;
+   
+}
+
+input {
+  margin-top: 70px;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 25px;
+  color: dodgerblue;
+}
+
+button[disabled] {
+  color: dodgerblue;
+  background-color: rgba(130, 127, 127, 0.4);
+}
+
+button:hover {
+  outline: auto;
+  background-color: darkgray;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 110px;
+  min-height: 40px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dodgerblue;
+  color: cornsilk;
+  font-size: 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

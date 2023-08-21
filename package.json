@@ -1,0 +1,20 @@
+{
+  "name": "task-4",
+  "version": "2.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "notiflix": "^3.2.5"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
