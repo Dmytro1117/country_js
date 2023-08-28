@@ -1,11 +1,11 @@
 {
-  "name": "async-await",
+  "name": "java-script-course",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://dmytro1117.github.io/java-script-course/",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "parcel build src/*.html --public-url /async-await/"
+    "build": "parcel build src/*.html --public-url /java-script-course/"
   },
   "repository": {
     "type": "git",
