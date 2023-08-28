@@ -7,10 +7,6 @@
     "start": "parcel src/index.html --open",
     "build": "parcel build src/*.html --public-url /java-script-course/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dmytro1117/java-script-course.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
