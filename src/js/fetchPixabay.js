@@ -1,10 +1,10 @@
 import axios from 'axios';
-import { pixabayKey, IMAGES_PER_PAGE } from './utils/envConsts.js';
+import { pixabayKey, IMAGES_PER_PAGE } from './utils/envConsts';
 
 const axiosPixabay = axios.create({
   baseURL: 'https://pixabay.com/api/',
   params: {
-    key: '31420131-aff65dfb3f4bd8a8d020782c7',
+    key: pixabayKey,
     image_type: 'photo',
     orientation: 'horizontal',
     safesearch: 'true',
