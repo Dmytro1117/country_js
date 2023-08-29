@@ -1,8 +1,8 @@
-@import "~/node_modules/modern-normalize/modern-normalize.css";
+@import '~/node_modules/modern-normalize/modern-normalize.css';
 
 body {
   overflow-y: scroll;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .search-form {
@@ -46,13 +46,13 @@ button {
   width: 326px;
   height: 200px;
 
-  border-radius: 8px;
-  box-shadow: 0 0 16px #333;
+  border-radius: 4px;
+  box-shadow: 0 0 4px #333;
   transition: scale 0.25s ease-in-out;
 }
 .gallery img:hover {
-  box-shadow: 0 0 32px #333;
-  scale: 1.03;
+  box-shadow: 0 0 8px #333;
+  scale: 1.01;
 }
 
 /* width */
