@@ -1,4 +1,7 @@
 import axios from 'axios';
+import * as dotenv from 'dotenv';
+
+dotenv.config();
 import { pixabayKey, IMAGES_PER_PAGE } from './utils/envConsts.js';
 
 const axiosPixabay = axios.create({
