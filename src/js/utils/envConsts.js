@@ -1,8 +1,8 @@
-// import * as dotenv from 'dotenv';
+import * as dotenv from 'dotenv';
 
-// dotenv.config();
+dotenv.config();
 
-export const pixabayKey = process.env.PIXABAY_SECRET_KEY;
+export const pixabayKey = process.env.KEY;
 
 export const IMAGES_PER_PAGE = 40;
 export const LIGHTBOX_PARAMS = {
