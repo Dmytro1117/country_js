@@ -1,6 +1,6 @@
 import * as dotenv from 'dotenv';
-require('dotenv').config();
-// dotenv.config();
+
+dotenv.config();
 
 export const pixabayKey = process.env.PIXABAY_SECRET_KEY;
 export const IMAGES_PER_PAGE = 40;
