@@ -1,10 +1,11 @@
-import * as dotenv from "dotenv";
-dotenv.config();
+import * as dotenv from 'dotenv';
+require('dotenv').config();
+// dotenv.config();
 
 export const pixabayKey = process.env.PIXABAY_SECRET_KEY;
 export const IMAGES_PER_PAGE = 40;
 export const LIGHTBOX_PARAMS = {
-  captionsData: "alt",
+  captionsData: 'alt',
   captionDelay: 250,
   scrollZoom: false,
 };
