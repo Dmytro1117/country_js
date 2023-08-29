@@ -4,7 +4,7 @@ import { pixabayKey, IMAGES_PER_PAGE } from './utils/envConsts.js';
 const axiosPixabay = axios.create({
   baseURL: 'https://pixabay.com/api/',
   params: {
-    key: '31420131-aff65dfb3f4bd8a8d020782c7',
+    key: pixabayKey,
     image_type: 'photo',
     orientation: 'horizontal',
     safesearch: 'true',
@@ -14,5 +14,6 @@ const axiosPixabay = axios.create({
 
 export async function fetchPixabayImages(q, page) {
   const { data } = await axiosPixabay.get('', { params: { q, page } });
+  console.log(pixabayKey);
   return data;
 }
