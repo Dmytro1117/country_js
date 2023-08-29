@@ -14,6 +14,5 @@ const axiosPixabay = axios.create({
 
 export async function fetchPixabayImages(q, page) {
   const { data } = await axiosPixabay.get('', { params: { q, page } });
-  console.log(pixabayKey);
   return data;
 }
