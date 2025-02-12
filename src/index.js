@@ -9,6 +9,7 @@ import cardList from './templates/cardList.hbs';
 import countryInfo from './templates/countryInfo.hbs';
 import moreInfo from './templates/moreInfo.hbs';
 import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.css';
 
 const LIGHTBOX_PARAMS = {
   captionsData: 'alt',
