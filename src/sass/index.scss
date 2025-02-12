@@ -1,0 +1,8 @@
+@use 'node_modules/modern-normalize/modern-normalize.css';
+@use './utils/variables';
+@use './base/base';
+@use './base/container';
+@use './components/loading-dots';
+@use './components/gallery';
+@use './layout/main-page';
+@use './utils/scrollbar';
