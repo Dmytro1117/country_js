@@ -8,5 +8,8 @@ export default defineConfig({
     'global': 'window'
   },
   root: 'src',
+  build: {
+    outDir: '../dist', // Зазначаємо, що результати збірки мають бути в папці 'dist' на рівні з 'src'
+  },
   plugins: [handlebarsPlugin()],
 });
