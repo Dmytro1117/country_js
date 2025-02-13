@@ -5,11 +5,11 @@ import handlebarsPlugin from '@yoichiro/vite-plugin-handlebars';
 export default defineConfig({
   base: '/',
   define: {
-    'global': 'window'
+    global: 'window',
   },
   root: 'src',
   build: {
-    outDir: '../dist', // Зазначаємо, що результати збірки мають бути в папці 'dist' на рівні з 'src'
+    outDir: '../dist',
   },
   plugins: [handlebarsPlugin()],
 });
